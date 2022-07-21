@@ -7,6 +7,7 @@ body {
   font-family: sans-serif;
   background: linear-gradient(#000, #4343);
 }
+
 .login_box {
   position: absolute;
   top: 50%;
@@ -19,14 +20,28 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
-.login_box h2 {
-  margin: 0 0 30px;
+
+.logo_title {
+  max-width: 300px;
+  height: 100px;
+}
+.logo_title img {
+  width: 100px;
+  position: relative;
+  bottom: 70px;
+  right: 20px;
+}
+
+.logo_title h2 {
+  margin: 0 0 20px;
   padding: 0;
   color: #fff;
   text-align: center;
 }
+
 .login_box .user_box {
   position: relative;
+  top: 20px;
 }
 .login_box .user_box input {
   width: 100%;
